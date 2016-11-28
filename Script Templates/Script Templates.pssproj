@@ -28,6 +28,7 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="CreateFolder_Subfolders_Properties.ps1" />
     <Compile Include="CustomObjectBreadCrumb.ps1" />
     <Compile Include="FolderBreadCrumb.ps1" />
     <Compile Include="Capture-Restore-CmbSelection.ps1" />
