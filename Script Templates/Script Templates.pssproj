@@ -30,12 +30,14 @@
   <ItemGroup>
     <Compile Include="CreateFolder_Subfolders_Properties.ps1" />
     <Compile Include="CustomObjectBreadCrumb.ps1" />
+    <Compile Include="FileOpenDialog.ps1" />
     <Compile Include="FolderBreadCrumb.ps1" />
     <Compile Include="Capture-Restore-CmbSelection.ps1" />
+    <Compile Include="GoToReplacedBy.ps1" />
     <Compile Include="NumberschemePropInput_OnPostClose.ps1" />
     <Compile Include="PowerShell-Debug.ps1" />
     <Compile Include="GoToSourceFile.ps1" />
-    <Compile Include="Default_Extensions_QS-VDS.ps1" />
+    <Compile Include="Default_QS-Extensions.ps1" />
     <Compile Include="Unblock_QuickstartScripts.ps1" />
     <Compile Include="VaultItemSearch.ps1" />
     <Compile Include="VaultConnection.ps1" />

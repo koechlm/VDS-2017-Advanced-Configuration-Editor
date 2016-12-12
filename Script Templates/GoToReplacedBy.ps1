@@ -12,7 +12,7 @@
 
 #region variables
 # change the quoted display name according your Vault Property Definition
-	$_SourceFilePropDispName = "Entstanden aus"
+	$_ReplacedByFilePropDispName = "Ersetzt durch"
 #endregion
 
 $currentSelected = $vaultContext.CurrentSelectionSet[0]
@@ -34,7 +34,7 @@ $propDefIds = @()
 $PropDefs | ForEach-Object {
 	$propDefIds += $_.Id
 } 
-$mPropDef = $propDefs | Where-Object { $_.DispName -eq $_SourceFilePropDispName}
+$mPropDef = $propDefs | Where-Object { $_.DispName -eq $_ReplacedByFilePropDispName}
 	
 $mEntIDs = @()
 $mEntIDs += $mLatestFile.Id
@@ -43,6 +43,12 @@ $mPropDefIDs += $mPropDef.Id
 $mProp = $vault.PropertyService.GetProperties("FILE",$mEntIDs, $mPropDefIDs)
 
 $mVal = $mProp[0].Val
+
+If ($mVal -eq '--') 
+		{ 
+			[System.Windows.MessageBox]::Show("Es ist kein Ersatz definiert.", "Vault Datei-Extras")
+			return
+		}
 
 $srchConds = New-Object autodesk.Connectivity.WebServices.SrchCond[] 1
 		$srchCond = New-Object autodesk.Connectivity.WebServices.SrchCond
@@ -66,7 +72,7 @@ $srchConds = New-Object autodesk.Connectivity.WebServices.SrchCond[] 1
 
 		If (!$mSearchResult) 
 		{ 
-			[System.Windows.MessageBox]::Show("Datei in '" + $_SourceFilePropDispName + "' konnte nicht gefunden werden.", "Vault Datei-Extras")
+			[System.Windows.MessageBox]::Show("Datei in '" + $_ReplacedByFilePropDispName + "' konnte nicht gefunden werden.", "Vault Datei-Extras")
 			return
 		}
 

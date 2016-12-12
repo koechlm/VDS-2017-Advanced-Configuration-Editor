@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS Script Snippets", "VDS 
 		VDS Script Snippets\LoginUserName-CAD.snippet = VDS Script Snippets\LoginUserName-CAD.snippet
 		VDS Script Snippets\LoginUserName-VLT.snippet = VDS Script Snippets\LoginUserName-VLT.snippet
 		VDS Script Snippets\MessageBox.snippet = VDS Script Snippets\MessageBox.snippet
+		VDS Script Snippets\powerVault_Load.snippet = VDS Script Snippets\powerVault_Load.snippet
 		VDS Script Snippets\ShowLog.snippet = VDS Script Snippets\ShowLog.snippet
 		VDS Script Snippets\SwitchWindow.snippet = VDS Script Snippets\SwitchWindow.snippet
 		VDS Script Snippets\Trace.snippet = VDS Script Snippets\Trace.snippet
@@ -34,8 +35,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS XAML Snippets", "VDS XA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippet Templates", "Snippet Templates", "{4D2E0D1C-D7CD-4C71-9D5A-D848C9B9782B}"
 	ProjectSection(SolutionItems) = preProject
-		VDS Script Snippets\SwitchWindow.snippet = VDS Script Snippets\SwitchWindow.snippet
+		Snippet Templates\VDS-PS-Snippet.snippet = Snippet Templates\VDS-PS-Snippet.snippet
 		Snippet Templates\VDS-XAML-Snippet.snippet = Snippet Templates\VDS-XAML-Snippet.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS Extension Templates", "VDS Extension Templates", "{1ACC72C7-73D4-4C85-8C16-E532AFF8609A}"
+	ProjectSection(SolutionItems) = preProject
+		VDS Extension Templates\CopyTo_Default-ps1-script.ps1 = VDS Extension Templates\CopyTo_Default-ps1-script.ps1
+		VDS Extension Templates\Supplement_UIStrings-de-DE.xml = VDS Extension Templates\Supplement_UIStrings-de-DE.xml
+		VDS Extension Templates\Supplement_UIStrings-en-US.xml = VDS Extension Templates\Supplement_UIStrings-en-US.xml
 	EndProjectSection
 EndProject
 Global

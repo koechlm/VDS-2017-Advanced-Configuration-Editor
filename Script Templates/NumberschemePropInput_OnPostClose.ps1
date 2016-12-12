@@ -10,8 +10,8 @@ function OnPostCloseDialog
 		{
 			if ($Prop["_CreateMode"])
 			{
-				$dsDiag.ShowLog()
-				$dsDiag.Clear()
+				#$dsDiag.ShowLog()
+				#$dsDiag.Clear()
 				$mySelectedNumschsFields = $dsWindow.DataContext.NumSchemeCtrlViewModel.NumSchmFields
 				$_DataContext = $dsWindow.DataContext
 				ForEach ($item in $mySelectedNumschsFields)

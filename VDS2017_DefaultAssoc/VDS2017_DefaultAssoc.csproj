@@ -121,6 +121,9 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\CreateFolder.ps1">
       <Link>Vault\addinVault\Menus\CreateFolder.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\CreateItemFile.ps1">
+      <Link>Vault\addinVault\Menus\CreateItemFile.ps1</Link>
+    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\EditCustomObject.ps1">
       <Link>Vault\addinVault\Menus\EditCustomObject.ps1</Link>
     </None>
