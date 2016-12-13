@@ -15,14 +15,13 @@
 			<Code Language="PowerShell" Delimiter="~">
         <![CDATA[
         
-          $_pVault = Get-Module -Name powerVault
-		      if ($_pVault) {
-			      $_pVInfor = Import-Module powerVault -PassThru	
+          Try{
+			      Import-Module powerVault
 		      }
-		      else{
+		      catch{
 			      [System.Windows.MessageBox]::Show("This feature requires powerVault installed; check for its availability", "Extension Title")
 			      return
-		      }
+		      }	
           
       ]]></Code>
 		</Snippet>
