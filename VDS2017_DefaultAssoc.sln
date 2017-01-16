@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS Script Snippets", "VDS 
 		VDS Script Snippets\LoginUserName-CAD.snippet = VDS Script Snippets\LoginUserName-CAD.snippet
 		VDS Script Snippets\LoginUserName-VLT.snippet = VDS Script Snippets\LoginUserName-VLT.snippet
 		VDS Script Snippets\MessageBox.snippet = VDS Script Snippets\MessageBox.snippet
+		VDS Script Snippets\powerVault_Load-Version.snippet = VDS Script Snippets\powerVault_Load-Version.snippet
 		VDS Script Snippets\powerVault_Load.snippet = VDS Script Snippets\powerVault_Load.snippet
 		VDS Script Snippets\ShowLog.snippet = VDS Script Snippets\ShowLog.snippet
 		VDS Script Snippets\SwitchWindow.snippet = VDS Script Snippets\SwitchWindow.snippet

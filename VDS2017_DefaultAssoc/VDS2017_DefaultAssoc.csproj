@@ -109,6 +109,9 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\FileBOM.ps1">
       <Link>Vault\addinVault\FileBOM.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\JobTab.ps1">
+      <Link>Vault\addinVault\JobTab.ps1</Link>
+    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\AddJob.ps1">
       <Link>Vault\addinVault\Menus\AddJob.ps1</Link>
     </None>
@@ -219,6 +222,11 @@
     </Page>
     <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\Configuration\File\Datasheet.xaml">
       <Link>Vault\Configuration\File\Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\Configuration\File\Jobs.xaml">
+      <Link>Vault\Configuration\File\Jobs.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
