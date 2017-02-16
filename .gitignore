@@ -243,3 +243,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/VDS2017_DefaultAssoc/link-add.ico
+/VDS2017_DefaultAssoc/link-add1.ico

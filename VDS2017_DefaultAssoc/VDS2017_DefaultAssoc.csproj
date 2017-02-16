@@ -109,9 +109,6 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\FileBOM.ps1">
       <Link>Vault\addinVault\FileBOM.ps1</Link>
     </None>
-    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\JobTab.ps1">
-      <Link>Vault\addinVault\JobTab.ps1</Link>
-    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\AddJob.ps1">
       <Link>Vault\addinVault\Menus\AddJob.ps1</Link>
     </None>
@@ -123,9 +120,6 @@
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\CreateFolder.ps1">
       <Link>Vault\addinVault\Menus\CreateFolder.ps1</Link>
-    </None>
-    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\CreateItemFile.ps1">
-      <Link>Vault\addinVault\Menus\CreateItemFile.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\addinVault\Menus\EditCustomObject.ps1">
       <Link>Vault\addinVault\Menus\EditCustomObject.ps1</Link>
@@ -192,6 +186,11 @@
     </Page>
     <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\CAD\Configuration\TubeAndPipe.xaml">
       <Link>CAD\Configuration\TubeAndPipe.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\Configuration\CreateTCLink.xaml">
+      <Link>Vault\Configuration\CreateTCLink.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
