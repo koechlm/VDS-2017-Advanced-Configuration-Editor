@@ -1,3 +1,15 @@
+#region disclaimer
+#=============================================================================#
+# PowerShell script sample for Vault Data Standard                            #
+#                                                                             #
+# Copyright (c) Autodesk - All rights reserved.                               #
+#                                                                             #
+# THIS SCRIPT/CODE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER   #
+# EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES #
+# OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.  #
+#=============================================================================#
+#endregion
+
 #--------------------------------------------------------
 # CreateFolder_Subfolders_Properties.ps1
 # Note - Requires Default_Extensions_QS-VDS.ps1 available
