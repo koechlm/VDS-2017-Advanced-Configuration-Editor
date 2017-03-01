@@ -35,6 +35,7 @@
     <Compile Include="FileOpenDialog.ps1" />
     <Compile Include="FolderBreadCrumb.ps1" />
     <Compile Include="Capture-Restore-CmbSelection.ps1" />
+    <Compile Include="GetUserGroupMembership.ps1" />
     <Compile Include="GoToReplacedBy.ps1" />
     <Compile Include="myOnPostCloseDialog.ps1" />
     <Compile Include="NumberschemePropInput_OnPostClose.ps1" />
