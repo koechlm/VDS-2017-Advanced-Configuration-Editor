@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS2017_DefaultAssoc", "VDS2017_DefaultAssoc\VDS2017_DefaultAssoc.csproj", "{CF8DDAE7-F13B-40D2-B59C-D583E097891D}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -13,6 +13,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS Script Snippets", "VDS Script Snippets", "{85978EDD-CA15-4725-8DBF-F4FB0544DFE3}"
 	ProjectSection(SolutionItems) = preProject
 		VDS Script Snippets\DataContext.snippet = VDS Script Snippets\DataContext.snippet
+		VDS Script Snippets\dsWindowClose.snippet = VDS Script Snippets\dsWindowClose.snippet
 		VDS Script Snippets\Findname.snippet = VDS Script Snippets\Findname.snippet
 		VDS Script Snippets\If(Prop)(True).snippet = VDS Script Snippets\If(Prop)(True).snippet
 		VDS Script Snippets\If(Prop).snippet = VDS Script Snippets\If(Prop).snippet
@@ -30,6 +31,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS Script Snippets", "VDS 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS XAML Snippets", "VDS XAML Snippets", "{9C00D7F5-73F4-4248-8B50-4C145339D9B8}"
 	ProjectSection(SolutionItems) = preProject
+		VDS XAML Snippets\VDS-OK-myOnPostCloseDialog.snippet = VDS XAML Snippets\VDS-OK-myOnPostCloseDialog.snippet
 		VDS XAML Snippets\VDS_Label.snippet = VDS XAML Snippets\VDS_Label.snippet
 		VDS XAML Snippets\VDS_TextBox.snippet = VDS XAML Snippets\VDS_TextBox.snippet
 	EndProjectSection
