@@ -204,6 +204,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\Configuration\Eco\LinkedCustomObjects.xaml">
+      <Link>Vault\Configuration\Eco\LinkedCustomObjects.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2017\Extensions\DataStandard\Vault\Configuration\File.xaml">
       <Link>Vault\Configuration\File.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
