@@ -67,14 +67,6 @@ function mUpdateFldrProperties([Long] $FldId, [String] $mDispName, [Object] $mVa
 	return $_fldPropUpdate
 }
 
-#show current runspace ID as input parameter to be used in step by step debugging
-function ShowRunspaceID
-{
-            $id = [runspace]::DefaultRunspace.Id
-            $app = [System.Diagnostics.Process]::GetCurrentProcess()
-            [System.Windows.Forms.MessageBox]::Show("application: $($app.name)"+[Environment]::NewLine+"runspace ID: $id")
-}
-
 #create folder structure based on seqential file numbering; 
 # parameters: Filenumber (has to be number in string format) and number of files per folder as digit, e.g. 3 for max. 999 files.
 function mGetFolderNumber($_FileNumber, $_nChar)

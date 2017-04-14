@@ -12,7 +12,7 @@
 
 #region check GroupMembership of current user
 #	Strategy: 
-#		1) create subfolder within .\Templates\Vault with empty text files for each group.
+#		1) create subfolder within .\Templates\Vault\DepartmentCheck\ with empty text files named according each group name.
 #		2) set ACL on each file to represent group access
 #		The function iterates the files and returns array of group names the current user belongs to
 
