@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS2017_DefaultAssoc", "VDS2017_DefaultAssoc\VDS2017_DefaultAssoc.csproj", "{CF8DDAE7-F13B-40D2-B59C-D583E097891D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51} = {6CAFC0C6-A428-4D30-A9F9-700E829FEA51}
+	EndProjectSection
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "Script Templates", "Script Templates\Script Templates.pssproj", "{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS Script Snippets", "VDS Script Snippets", "{85978EDD-CA15-4725-8DBF-F4FB0544DFE3}"
+	ProjectSection(SolutionItems) = preProject
+		VDS Script Snippets\DataContext.snippet = VDS Script Snippets\DataContext.snippet
+		VDS Script Snippets\dsWindowClose.snippet = VDS Script Snippets\dsWindowClose.snippet
+		VDS Script Snippets\Findname.snippet = VDS Script Snippets\Findname.snippet
+		VDS Script Snippets\If(Prop)(True).snippet = VDS Script Snippets\If(Prop)(True).snippet
+		VDS Script Snippets\If(Prop).snippet = VDS Script Snippets\If(Prop).snippet
+		VDS Script Snippets\Inspector.snippet = VDS Script Snippets\Inspector.snippet
+		VDS Script Snippets\LoginUserName-CAD.snippet = VDS Script Snippets\LoginUserName-CAD.snippet
+		VDS Script Snippets\LoginUserName-VLT.snippet = VDS Script Snippets\LoginUserName-VLT.snippet
+		VDS Script Snippets\MessageBox.snippet = VDS Script Snippets\MessageBox.snippet
+		VDS Script Snippets\powerVault_Load-Version.snippet = VDS Script Snippets\powerVault_Load-Version.snippet
+		VDS Script Snippets\powerVault_Load.snippet = VDS Script Snippets\powerVault_Load.snippet
+		VDS Script Snippets\ShowLog.snippet = VDS Script Snippets\ShowLog.snippet
+		VDS Script Snippets\SwitchWindow.snippet = VDS Script Snippets\SwitchWindow.snippet
+		VDS Script Snippets\Trace.snippet = VDS Script Snippets\Trace.snippet
+		VDS Script Snippets\VDS_TextBox.snippet = VDS Script Snippets\VDS_TextBox.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS XAML Snippets", "VDS XAML Snippets", "{9C00D7F5-73F4-4248-8B50-4C145339D9B8}"
+	ProjectSection(SolutionItems) = preProject
+		VDS XAML Snippets\VDS-OK-myOnPostCloseDialog.snippet = VDS XAML Snippets\VDS-OK-myOnPostCloseDialog.snippet
+		VDS XAML Snippets\VDS_Label.snippet = VDS XAML Snippets\VDS_Label.snippet
+		VDS XAML Snippets\VDS_TextBox.snippet = VDS XAML Snippets\VDS_TextBox.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippet Templates", "Snippet Templates", "{4D2E0D1C-D7CD-4C71-9D5A-D848C9B9782B}"
+	ProjectSection(SolutionItems) = preProject
+		Snippet Templates\VDS-PS-Snippet.snippet = Snippet Templates\VDS-PS-Snippet.snippet
+		Snippet Templates\VDS-XAML-Snippet.snippet = Snippet Templates\VDS-XAML-Snippet.snippet
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VDS Extension Templates", "VDS Extension Templates", "{1ACC72C7-73D4-4C85-8C16-E532AFF8609A}"
+	ProjectSection(SolutionItems) = preProject
+		VDS Extension Templates\CopyTo_Default-ps1-script.ps1 = VDS Extension Templates\CopyTo_Default-ps1-script.ps1
+		VDS Extension Templates\Supplement_UIStrings-de-DE.xml = VDS Extension Templates\Supplement_UIStrings-de-DE.xml
+		VDS Extension Templates\Supplement_UIStrings-en-US.xml = VDS Extension Templates\Supplement_UIStrings-en-US.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF8DDAE7-F13B-40D2-B59C-D583E097891D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8DDAE7-F13B-40D2-B59C-D583E097891D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8DDAE7-F13B-40D2-B59C-D583E097891D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAFC0C6-A428-4D30-A9F9-700E829FEA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
